@@ -14,6 +14,16 @@
             <h5 for="Produto" class="col-md-2">Produto</h5>
             <input value="{{produto.Produto}}" name="Produto" disabled>
         </div>
+                        
+        <div class="row">
+            <label for="categoria" class="col-md-2">Categoria</label>
+            <input value="{{produto.categoria}}" name="categoria" disabled>
+        </div>
+        <div class="row">
+            <label for="fabricante" class="col-md-2">Fabricante</label>
+            <input value="{{produto.fabricante}}" name="fabricante" disabled>
+        </div>
+
         <div class="row">
             <div class="col-md-2">
                 {% if produto.destaque %}
